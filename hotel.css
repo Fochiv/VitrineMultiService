@@ -28,8 +28,8 @@ body {
 /* ---- HERO ---- */
 .hotel-hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(20,10,0,0.6), rgba(20,10,0,0.4)),
-              url('Zingana_Hotel/2.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(20,10,0,0.55), rgba(20,10,0,0.35)),
+    url('Zingana_Hotel/zingana.jpg') center/cover no-repeat fixed;
   display: flex;
   align-items: center;
   justify-content: center;

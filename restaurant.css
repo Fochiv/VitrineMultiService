@@ -142,6 +142,9 @@ body {
 
 .menu-card .card-body { padding: 1.25rem; }
 
+.menu-card h5 { color: #fff; }
+.menu-card p { color: rgba(255,255,255,0.75) !important; }
+
 .menu-card .card-title {
   font-family: 'Oswald', sans-serif;
   font-size: 1.1rem;
