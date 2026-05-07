@@ -230,10 +230,12 @@ footer a:hover {
 }
 
 footer .social-icons a {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 0.6rem;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 
 .footer-bottom {

@@ -132,7 +132,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
         <img src="liontech-logo.jpg" alt="LionTech Logo" width="40" height="40"
              style="border-radius:50%; object-fit:cover;" />
-        <span class="lion">Lion</span><span class="tech">Tech</span>
+        <span style="white-space:nowrap;"><span class="lion">Lion</span><span class="tech">Tech</span></span>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navMenu" aria-label="Toggle navigation">
@@ -343,7 +343,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 <strong style="color:#D4AF37;">LionTech</strong> — Tous droits réservés | Développé avec ❤️ au Cameroun</p>
+        <p>&copy; 2025 <strong style="color:#D4AF37;">LionTech</strong> — Tous droits réservés</p>
       </div>
     </div>
   </footer>
