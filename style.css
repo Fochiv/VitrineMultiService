@@ -73,6 +73,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+  padding-top: 80px;
 }
 
 .hero-section::before {
