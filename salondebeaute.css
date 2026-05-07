@@ -1,0 +1,184 @@
+/* =========================================
+   SALON DE BEAUTÉ PAGE STYLES
+   ========================================= */
+
+:root {
+  --beauty-pink: #e91e8c;
+  --beauty-rose: #f093fb;
+  --beauty-dark: #1a1a2e;
+  --beauty-gold: #D4AF37;
+}
+
+/* ---- HERO ---- */
+.beauty-hero {
+  min-height: 85vh;
+  background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+              linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.beauty-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(233,30,140,0.3) 0%, transparent 70%);
+}
+
+.beauty-hero h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 900;
+  text-shadow: 2px 4px 20px rgba(0,0,0,0.4);
+  position: relative;
+  z-index: 1;
+}
+
+.beauty-hero p {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  color: rgba(255,255,255,0.9);
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-beauty {
+  background: linear-gradient(135deg, var(--beauty-pink), #9b59b6);
+  color: white;
+  font-weight: 700;
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-beauty:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(233,30,140,0.5);
+  color: white;
+}
+
+/* ---- SERVICE CARDS ---- */
+.beauty-services {
+  padding: 5rem 0;
+  background: #fff;
+}
+
+.beauty-card {
+  border: none;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+  height: 100%;
+}
+
+.beauty-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 45px rgba(233,30,140,0.15);
+}
+
+.beauty-card .beauty-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #f093fb, #f5576c);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  font-size: 2rem;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.beauty-card:hover .beauty-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.beauty-card h5 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--beauty-dark);
+  margin-bottom: 0.5rem;
+}
+
+.beauty-card p {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.beauty-price {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--beauty-pink);
+}
+
+/* ---- GALLERY ---- */
+.beauty-gallery {
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.beauty-gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.4s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.beauty-gallery img:hover {
+  transform: scale(1.04);
+}
+
+/* ---- TÉMOIGNAGES ---- */
+.beauty-reviews {
+  padding: 5rem 0;
+  background: #fff;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-top: 4px solid var(--beauty-pink);
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.review-card:hover {
+  transform: translateY(-4px);
+}
+
+.review-stars {
+  color: var(--beauty-gold);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.review-name {
+  font-weight: 700;
+  color: var(--beauty-dark);
+  font-size: 0.95rem;
+}
+
+/* ---- RDV ---- */
+.beauty-rdv {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #f093fb, #f5576c, #e91e8c);
+  text-align: center;
+  color: white;
+}

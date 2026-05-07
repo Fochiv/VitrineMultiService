@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LionTech — Solutions Digitales au Cameroun</title>
+  <meta name="description" content="LionTech — Agence digitale au Cameroun. Solutions web pour l'hôtellerie, la restauration et la beauté." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Global styles -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="liontech-logo.jpg" alt="LionTech Logo" width="40" height="40"
+             style="border-radius:50%; object-fit:cover;" />
+        <span class="lion">Lion</span><span class="tech">Tech</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navMenu" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="hotel.html">Hôtel</a></li>
+          <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurant</a></li>
+          <li class="nav-item"><a class="nav-link" href="salondebeaute.html">Beauté</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero-section" id="home">
+    <div class="container hero-content text-center text-lg-start">
+      <div class="row align-items-center">
+        <div class="col-lg-7" data-aos="fade-right">
+          <h1 class="hero-title">
+            Transformez votre business<br/>avec <span>LionTech</span>
+          </h1>
+          <p class="hero-subtitle">
+            Solutions digitales pour tous vos services — hôtellerie, restauration, beauté et bien plus encore.
+          </p>
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+            <a href="#services" class="btn btn-gold btn-lg">
+              <i class="fas fa-th-large me-2"></i>Voir nos services
+            </a>
+            <a href="contact.php" class="btn btn-outline-gold btn-lg">
+              <i class="fas fa-envelope me-2"></i>Nous contacter
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-center mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+          <img src="liontech-logo.jpg" alt="LionTech" class="img-fluid"
+               style="max-width:320px; border-radius:20px; box-shadow:0 20px 60px rgba(212,175,55,0.3);" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="position-absolute bottom-0 start-50 translate-middle-x mb-4 text-white-50"
+         style="animation: bounce 2s infinite;">
+      <i class="fas fa-chevron-down fa-2x"></i>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services" class="py-6" style="padding: 6rem 0; background: #f8f9fa;">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Nos Domaines d'Expertise</h2>
+        <div class="section-divider"></div>
+        <p class="text-muted fs-5">Des solutions digitales adaptées à chaque secteur d'activité</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Hôtel -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="card service-card h-100">
+            <img src="Zingana_Hotel/1.jpg" class="card-img-top" alt="Zingana Hôtel" />
+            <div class="card-body text-center">
+              <div class="card-icon">🏨</div>
+              <h3 class="card-title">Zingana Hôtel</h3>
+              <p class="text-muted">L'élégance africaine au cœur de Bafoussam. Confort premium, hospitalité authentique.</p>
+              <a href="hotel.html" class="btn btn-gold mt-2">
+                <i class="fas fa-arrow-right me-2"></i>Découvrir
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Restaurant -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+          <div class="card service-card h-100">
+            <img src="SRD_VVIP/facade_SRDVVIP.jpg" class="card-img-top" alt="SRD VVIP Restaurant" />
+            <div class="card-body text-center">
+              <div class="card-icon">🍽️</div>
+              <h3 class="card-title">SRD VVIP Restaurant</h3>
+              <p class="text-muted">Saveurs authentiques du Cameroun. Une expérience culinaire VVIP à Douala.</p>
+              <a href="restaurant.html" class="btn btn-gold mt-2">
+                <i class="fas fa-arrow-right me-2"></i>Découvrir
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beauté -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="card service-card h-100">
+            <div style="height:200px; background:linear-gradient(135deg,#f093fb,#f5576c); display:flex; align-items:center; justify-content:center;">
+              <i class="fas fa-spa fa-5x text-white opacity-75"></i>
+            </div>
+            <div class="card-body text-center">
+              <div class="card-icon">💆</div>
+              <h3 class="card-title">Salon de Beauté</h3>
+              <p class="text-muted">Votre salon premium — expertise & élégance. Coiffure, maquillage, soins et bien-être.</p>
+              <a href="salondebeaute.html" class="btn btn-gold mt-2">
+                <i class="fas fa-arrow-right me-2"></i>Découvrir
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="py-5" style="background: #1a1a2e; color:white;">
+    <div class="container text-center" data-aos="fade-up">
+      <h2 class="mb-3" style="color:#D4AF37; font-weight:800;">Pourquoi choisir LionTech ?</h2>
+      <p class="fs-5 mb-5 text-white-75" style="max-width:700px; margin:auto; color:rgba(255,255,255,0.75);">
+        Nous créons des sites vitrines modernes, rapides et professionnels pour propulser votre activité en ligne.
+      </p>
+      <div class="row g-4">
+        <div class="col-md-3" data-aos="zoom-in" data-aos-delay="0">
+          <i class="fas fa-rocket fa-3x mb-3" style="color:#D4AF37;"></i>
+          <h5>Performance</h5>
+          <p class="text-white-50 small">Sites optimisés, rapides et fluides sur tous les appareils.</p>
+        </div>
+        <div class="col-md-3" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fas fa-mobile-alt fa-3x mb-3" style="color:#D4AF37;"></i>
+          <h5>Responsive</h5>
+          <p class="text-white-50 small">Design adapté mobile, tablette et desktop parfaitement.</p>
+        </div>
+        <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-paint-brush fa-3x mb-3" style="color:#D4AF37;"></i>
+          <h5>Design Premium</h5>
+          <p class="text-white-50 small">Interfaces modernes et élégantes qui reflètent votre marque.</p>
+        </div>
+        <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fas fa-headset fa-3x mb-3" style="color:#D4AF37;"></i>
+          <h5>Support</h5>
+          <p class="text-white-50 small">Accompagnement personnalisé avant, pendant et après livraison.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="py-5 text-center" style="background:linear-gradient(135deg,#D4AF37,#b8962f);">
+    <div class="container" data-aos="zoom-in">
+      <h2 class="text-dark fw-bold fs-1 mb-3">Prêt à digitaliser votre business ?</h2>
+      <p class="text-dark fs-5 mb-4">Contactez LionTech aujourd'hui et obtenez votre devis gratuit.</p>
+      <a href="contact.php" class="btn btn-dark btn-lg rounded-pill px-5">
+        <i class="fas fa-paper-plane me-2"></i>Nous contacter
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5><i class="fas fa-paw me-2"></i>À propos de LionTech</h5>
+          <p style="color:rgba(255,255,255,0.65); line-height:1.8;">
+            Agence digitale basée au Cameroun, spécialisée dans la création de sites vitrines professionnels pour les entreprises locales.
+          </p>
+          <a href="https://liontech.iceiy.com" target="_blank" style="color:#D4AF37;">
+            <i class="fas fa-globe me-1"></i>liontech.iceiy.com
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fas fa-link me-2"></i>Liens rapides</h5>
+          <a href="index.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Accueil</a>
+          <a href="hotel.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Zingana Hôtel</a>
+          <a href="restaurant.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>SRD VVIP Restaurant</a>
+          <a href="salondebeaute.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Salon de Beauté</a>
+          <a href="contact.php"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Contact</a>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fas fa-address-book me-2"></i>Contact & Réseaux</h5>
+          <div class="social-icons">
+            <a href="https://wa.me/237688203095" target="_blank">
+              <i class="fab fa-whatsapp me-2" style="color:#25D366;"></i>WhatsApp +237 688 20 30 95
+            </a>
+            <a href="https://facebook.com/LionTech" target="_blank">
+              <i class="fab fa-facebook me-2" style="color:#1877f2;"></i>Facebook LionTech
+            </a>
+            <a href="https://tiktok.com/@liontech62" target="_blank">
+              <i class="fab fa-tiktok me-2" style="color:#ee1d52;"></i>TikTok @liontech62
+            </a>
+            <a href="https://instagram.com/lion_tech02" target="_blank">
+              <i class="fab fa-instagram me-2" style="color:#e1306c;"></i>Instagram lion_tech02
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 <strong style="color:#D4AF37;">LionTech</strong> — Tous droits réservés | Développé avec ❤️ au Cameroun</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scrollTop" title="Retour en haut">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true, offset: 80 });
+
+    // Navbar scroll effect
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Scroll to top button
+    const scrollBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+      scrollBtn.style.display = window.scrollY > 400 ? 'flex' : 'none';
+    });
+    scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Smooth scroll for anchors
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+  <style>
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(-10px); }
+    }
+  </style>
+</body>
+</html>

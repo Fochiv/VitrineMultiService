@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salon de Beauté — LionTech</title>
+  <meta name="description" content="Salon de Beauté Premium — Expertise & élégance. Coiffure, maquillage, soins." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="salondebeaute.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top scrolled" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="liontech-logo.jpg" alt="LionTech Logo" width="40" height="40"
+             style="border-radius:50%; object-fit:cover;" />
+        <span class="lion">Lion</span><span class="tech">Tech</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navMenu" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="hotel.html">Hôtel</a></li>
+          <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurant</a></li>
+          <li class="nav-item"><a class="nav-link active" href="salondebeaute.html">Beauté</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="beauty-hero">
+    <div data-aos="fade-up">
+      <h1>Révélez votre beauté</h1>
+      <p>Votre salon premium — Expertise &amp; élégance à chaque service</p>
+      <a href="https://wa.me/237688203095" class="btn btn-beauty btn-lg px-5" target="_blank">
+        <i class="fas fa-calendar-check me-2"></i>Prendre rendez-vous
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="beauty-services">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Nos Services</h2>
+        <div class="section-divider" style="background:linear-gradient(90deg,#f093fb,#f5576c);"></div>
+        <p class="text-muted fs-5">Prenez soin de vous avec nos experts beauté</p>
+      </div>
+      <div class="row g-4">
+
+        <!-- Coiffure -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="beauty-card">
+            <div class="beauty-icon">
+              <i class="fas fa-cut"></i>
+            </div>
+            <h5>Coiffure</h5>
+            <p>Coupes, tresses, lissage, coloration — sublimez vos cheveux avec nos coiffeurs experts.</p>
+            <div class="beauty-price">3 000 FCFA</div>
+          </div>
+        </div>
+
+        <!-- Maquillage -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="beauty-card">
+            <div class="beauty-icon" style="background:linear-gradient(135deg,#f5576c,#9b59b6);">
+              <i class="fas fa-magic"></i>
+            </div>
+            <h5>Maquillage</h5>
+            <p>Maquillage de jour, soirée, mariée — un look impeccable pour chaque occasion.</p>
+            <div class="beauty-price">5 000 FCFA</div>
+          </div>
+        </div>
+
+        <!-- Soins du visage -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="beauty-card">
+            <div class="beauty-icon" style="background:linear-gradient(135deg,#43e97b,#38f9d7);">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h5>Soins du visage</h5>
+            <p>Hydratation, gommage, masques revitalisants — une peau rayonnante et lumineuse.</p>
+            <div class="beauty-price">4 000 FCFA</div>
+          </div>
+        </div>
+
+        <!-- Pédicure -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="beauty-card">
+            <div class="beauty-icon" style="background:linear-gradient(135deg,#fa709a,#fee140);">
+              <i class="fas fa-spa"></i>
+            </div>
+            <h5>Pédicure</h5>
+            <p>Soin pieds complet, vernis gel — des pieds parfaits et bien soignés.</p>
+            <div class="beauty-price">3 500 FCFA</div>
+          </div>
+        </div>
+
+        <!-- Manucure -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="beauty-card">
+            <div class="beauty-icon" style="background:linear-gradient(135deg,#a18cd1,#fbc2eb);">
+              <i class="fas fa-hand-sparkles"></i>
+            </div>
+            <h5>Manucure</h5>
+            <p>Ongles naturels, nail art, gel UV — des mains élégantes et soignées.</p>
+            <div class="beauty-price">2 500 FCFA</div>
+          </div>
+        </div>
+
+        <!-- Bien-être -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="beauty-card">
+            <div class="beauty-icon" style="background:linear-gradient(135deg,#f6d365,#fda085);">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h5>Bien-être &amp; Relaxation</h5>
+            <p>Massages relaxants, aromathérapie — rechargez-vous corps et âme.</p>
+            <div class="beauty-price">Sur devis</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIE ========== -->
+  <section class="beauty-gallery">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Nos Transformations</h2>
+        <div class="section-divider" style="background:linear-gradient(90deg,#f093fb,#f5576c);"></div>
+        <p class="text-muted">Découvrez quelques-unes de nos réalisations</p>
+      </div>
+      <div class="row g-3">
+        <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="0">
+          <div style="overflow:hidden;border-radius:12px;">
+            <img src="Zingana_Hotel/9.jpg" alt="Transformation 1" style="width:100%;height:250px;object-fit:cover;transition:transform 0.4s;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="80">
+          <div style="overflow:hidden;border-radius:12px;background:linear-gradient(135deg,#f093fb,#f5576c);height:250px;display:flex;align-items:center;justify-content:center;">
+            <i class="fas fa-cut fa-6x text-white opacity-50"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="160">
+          <div style="overflow:hidden;border-radius:12px;background:linear-gradient(135deg,#a18cd1,#fbc2eb);height:250px;display:flex;align-items:center;justify-content:center;">
+            <i class="fas fa-magic fa-6x text-white opacity-50"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="0">
+          <div style="overflow:hidden;border-radius:12px;background:linear-gradient(135deg,#fa709a,#fee140);height:250px;display:flex;align-items:center;justify-content:center;">
+            <i class="fas fa-spa fa-6x text-white opacity-50"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="80">
+          <div style="overflow:hidden;border-radius:12px;background:linear-gradient(135deg,#43e97b,#38f9d7);height:250px;display:flex;align-items:center;justify-content:center;">
+            <i class="fas fa-leaf fa-6x text-white opacity-50"></i>
+          </div>
+        </div>
+        <div class="col-6 col-md-4" data-aos="zoom-in" data-aos-delay="160">
+          <div style="overflow:hidden;border-radius:12px;background:linear-gradient(135deg,#f6d365,#fda085);height:250px;display:flex;align-items:center;justify-content:center;">
+            <i class="fas fa-hand-sparkles fa-6x text-white opacity-50"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TÉMOIGNAGES ========== -->
+  <section class="beauty-reviews">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Ce que disent nos clientes</h2>
+        <div class="section-divider" style="background:linear-gradient(90deg,#f093fb,#f5576c);"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="review-card">
+            <div class="review-stars mb-2">★★★★★</div>
+            <p class="text-muted fst-italic mb-3">"Le meilleur salon de la ville ! Mon maquillage pour mon mariage était absolument parfait. Je recommande à toutes mes amies."</p>
+            <div class="review-name">Marie-Claire K.</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="review-card">
+            <div class="review-stars mb-2">★★★★★</div>
+            <p class="text-muted fst-italic mb-3">"Accueil chaleureux, équipe professionnelle. Mes tresses ont duré 3 semaines ! Je ne vais nulle part ailleurs."</p>
+            <div class="review-name">Audrey N.</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="review-card">
+            <div class="review-stars mb-2">★★★★★</div>
+            <p class="text-muted fst-italic mb-3">"Les soins du visage sont incroyables. Ma peau n'a jamais été aussi lumineuse. Un vrai luxe accessible !"</p>
+            <div class="review-name">Fatima B.</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="review-card">
+            <div class="review-stars mb-2">★★★★★</div>
+            <p class="text-muted fst-italic mb-3">"Manucure parfaite ! Le nail art est magnifique et dure très longtemps. Personnel très attentionné."</p>
+            <div class="review-name">Sandra T.</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="review-card">
+            <div class="review-stars mb-2">★★★★★</div>
+            <p class="text-muted fst-italic mb-3">"Je viens tous les mois pour ma pédicure. Toujours impeccable, toujours à l'écoute. Un endroit où on se sent valorisée."</p>
+            <div class="review-name">Chloé M.</div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="review-card">
+            <div class="review-stars mb-2">★★★★★</div>
+            <p class="text-muted fst-italic mb-3">"Coloration parfaite du premier coup ! Ma coloriste a tout compris de ce que je voulais. Résultat au-delà de mes attentes."</p>
+            <div class="review-name">Ingrid F.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RDV ========== -->
+  <section class="beauty-rdv" data-aos="fade-up">
+    <div class="container">
+      <h2 class="fw-bold fs-1 mb-3">Prenez rendez-vous dès aujourd'hui</h2>
+      <p class="fs-5 mb-4" style="color:rgba(255,255,255,0.9);">
+        Disponible 7j/7 — Répondez-nous via WhatsApp pour réserver votre créneau.
+      </p>
+      <a href="https://wa.me/237688203095" class="whatsapp-badge d-inline-flex align-items-center gap-2 fs-5 px-4 py-3"
+         target="_blank">
+        <i class="fab fa-whatsapp fa-lg"></i>WhatsApp +237 688 20 30 95
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT BEAUTÉ ========== -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Nous Rejoindre</h2>
+        <div class="section-divider" style="background:linear-gradient(90deg,#f093fb,#f5576c);"></div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-5" data-aos="fade-right">
+          <div class="card border-0 shadow p-4 h-100" style="border-radius:16px;">
+            <h5 class="fw-bold mb-3" style="color:#e91e8c;">
+              <i class="fas fa-phone me-2"></i>Nous contacter
+            </h5>
+            <div class="social-icons">
+              <a href="https://wa.me/237688203095" target="_blank" class="d-flex align-items-center gap-2 mb-2 text-decoration-none" style="color:#25D366;">
+                <i class="fab fa-whatsapp fa-lg"></i><span>+237 688 20 30 95</span>
+              </a>
+              <a href="https://facebook.com/LionTech" target="_blank" class="d-flex align-items-center gap-2 mb-2 text-decoration-none" style="color:#1877f2;">
+                <i class="fab fa-facebook fa-lg"></i><span>Facebook LionTech</span>
+              </a>
+              <a href="https://tiktok.com/@liontech62" target="_blank" class="d-flex align-items-center gap-2 mb-2 text-decoration-none" style="color:#ee1d52;">
+                <i class="fab fa-tiktok fa-lg"></i><span>@liontech62</span>
+              </a>
+              <a href="https://instagram.com/lion_tech02" target="_blank" class="d-flex align-items-center gap-2 mb-2 text-decoration-none" style="color:#e1306c;">
+                <i class="fab fa-instagram fa-lg"></i><span>lion_tech02</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5" data-aos="fade-left">
+          <div class="card border-0 shadow p-4 h-100" style="border-radius:16px;">
+            <h5 class="fw-bold mb-3" style="color:#e91e8c;">
+              <i class="fas fa-clock me-2"></i>Horaires d'ouverture
+            </h5>
+            <table class="table table-borderless mb-0">
+              <tbody>
+                <tr><td class="fw-semibold">Lundi — Vendredi</td><td class="text-muted">08h00 – 20h00</td></tr>
+                <tr><td class="fw-semibold">Samedi</td><td class="text-muted">08h00 – 22h00</td></tr>
+                <tr><td class="fw-semibold">Dimanche</td><td class="text-muted">09h00 – 18h00</td></tr>
+              </tbody>
+            </table>
+            <hr />
+            <a href="https://liontech.iceiy.com" target="_blank" style="color:#D4AF37; text-decoration:none;">
+              <i class="fas fa-globe me-1"></i>liontech.iceiy.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5><i class="fas fa-paw me-2"></i>À propos de LionTech</h5>
+          <p style="color:rgba(255,255,255,0.65); line-height:1.8;">
+            Agence digitale basée au Cameroun, spécialisée dans la création de sites vitrines professionnels.
+          </p>
+          <a href="https://liontech.iceiy.com" target="_blank" style="color:#D4AF37;">
+            <i class="fas fa-globe me-1"></i>liontech.iceiy.com
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fas fa-link me-2"></i>Liens rapides</h5>
+          <a href="index.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Accueil</a>
+          <a href="hotel.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Zingana Hôtel</a>
+          <a href="restaurant.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>SRD VVIP Restaurant</a>
+          <a href="salondebeaute.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Salon de Beauté</a>
+          <a href="contact.php"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Contact</a>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fas fa-address-book me-2"></i>Contact & Réseaux</h5>
+          <div class="social-icons">
+            <a href="https://wa.me/237688203095" target="_blank">
+              <i class="fab fa-whatsapp me-2" style="color:#25D366;"></i>WhatsApp +237 688 20 30 95
+            </a>
+            <a href="https://facebook.com/LionTech" target="_blank">
+              <i class="fab fa-facebook me-2" style="color:#1877f2;"></i>Facebook LionTech
+            </a>
+            <a href="https://tiktok.com/@liontech62" target="_blank">
+              <i class="fab fa-tiktok me-2" style="color:#ee1d52;"></i>TikTok @liontech62
+            </a>
+            <a href="https://instagram.com/lion_tech02" target="_blank">
+              <i class="fab fa-instagram me-2" style="color:#e1306c;"></i>Instagram lion_tech02
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 <strong style="color:#D4AF37;">LionTech</strong> — Tous droits réservés | Développé avec ❤️ au Cameroun</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" title="Retour en haut">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true, offset: 80 });
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) nav.classList.add('scrolled');
+    });
+    const scrollBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+      scrollBtn.style.display = window.scrollY > 400 ? 'flex' : 'none';
+    });
+    scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+/* =========================================
+   RESTAURANT PAGE STYLES — SRD VVIP
+   ========================================= */
+
+:root {
+  --resto-orange: #FF6B35;
+  --resto-dark: #1a1a2e;
+  --resto-gold: #D4AF37;
+}
+
+/* ---- HERO ---- */
+.resto-hero {
+  min-height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('SRD_VVIP/facade_SRDVVIP2.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.resto-hero h1 {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 900;
+  text-shadow: 2px 4px 20px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+
+.resto-hero .vvip-sub {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  color: rgba(255,255,255,0.9);
+  max-width: 620px;
+  margin: 0.5rem auto 1.5rem;
+}
+
+.resto-hero .location-tag {
+  color: var(--resto-orange);
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.btn-orange {
+  background-color: var(--resto-orange);
+  color: white;
+  font-weight: 700;
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: #e55a25;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255,107,53,0.4);
+}
+
+/* ---- PRÉSENTATION ---- */
+.resto-presentation {
+  padding: 5rem 0;
+  background: #fff;
+}
+
+.vvip-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--resto-gold), #b8962f);
+  color: #1a1a2e;
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+/* ---- MENU ---- */
+.resto-menu {
+  padding: 5rem 0;
+  background: #f8f9fa;
+}
+
+.menu-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.18);
+}
+
+.menu-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.menu-card .card-body {
+  padding: 1.25rem;
+}
+
+.menu-price {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--resto-orange);
+}
+
+.menu-card .btn-add {
+  background: var(--resto-orange);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.menu-card .btn-add:hover {
+  background: #e55a25;
+  transform: translateY(-1px);
+}
+
+/* ---- SECTION CTA ---- */
+.resto-cta {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, var(--resto-dark), #16213e);
+  color: white;
+  text-align: center;
+}
+
+/* ---- CONTACT RESTO ---- */
+.resto-contact {
+  padding: 4rem 0;
+  background: #fff;
+}
+
+.info-box {
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 2rem;
+  border-left: 4px solid var(--resto-orange);
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRD VVIP Restaurant — LionTech</title>
+  <meta name="description" content="SRD VVIP Restaurant — Saveurs authentiques du Cameroun à Douala." />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="restaurant.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top scrolled" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="liontech-logo.jpg" alt="LionTech Logo" width="40" height="40"
+             style="border-radius:50%; object-fit:cover;" />
+        <span class="lion">Lion</span><span class="tech">Tech</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navMenu" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="hotel.html">Hôtel</a></li>
+          <li class="nav-item"><a class="nav-link active" href="restaurant.html">Restaurant</a></li>
+          <li class="nav-item"><a class="nav-link" href="salondebeaute.html">Beauté</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="resto-hero">
+    <div data-aos="fade-up">
+      <h1>SRD VVIP</h1>
+      <p class="vvip-sub">Super Restaurant Dakere VVIP — Saveurs authentiques du Cameroun</p>
+      <p class="location-tag mb-3">
+        <i class="fas fa-map-marker-alt me-1"></i>Douala, face à la Policlinique de la Gare
+      </p>
+      <a href="https://wa.me/237688203095" class="btn btn-orange btn-lg px-5 rounded-pill" target="_blank">
+        <i class="fas fa-shopping-cart me-2"></i>Commander maintenant
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== PRÉSENTATION ========== -->
+  <section class="resto-presentation">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6" data-aos="fade-right">
+          <span class="vvip-badge">★ VVIP Experience ★</span>
+          <h2 class="section-title text-start mt-2" style="font-size:2rem;">
+            La Cuisine Camerounaise dans toute sa splendeur
+          </h2>
+          <div style="width:60px;height:4px;background:#FF6B35;border-radius:2px;margin:1rem 0 1.5rem;"></div>
+          <p class="text-muted mb-3" style="line-height:1.9;">
+            Le <strong>Super Restaurant Dakere VVIP</strong> vous transporte au cœur de la richesse culinaire
+            camerounaise et africaine. Situé en plein cœur de Douala, notre établissement accueille chaque jour
+            des dizaines de convives en quête d'une expérience gastronomique authentique et raffinée.
+          </p>
+          <p class="text-muted mb-3" style="line-height:1.9;">
+            Notre chef cuisine avec passion des recettes transmises de génération en génération, sublimées par
+            des techniques modernes. Chaque plat est une invitation au voyage : eru savoureux, couscous traditionnel,
+            riz sénégalais parfumé... une symphonie de saveurs vous attend.
+          </p>
+          <p class="text-muted" style="line-height:1.9;">
+            Que vous veniez en famille, entre amis ou pour un repas d'affaires, le SRD VVIP vous garantit
+            une ambiance chaleureuse, un service attentionné et des plats qui font voyager vos papilles.
+          </p>
+          <div class="mt-3" style="color:#D4AF37; font-size:1.5rem; letter-spacing:3px;">★★★★★</div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+          <div class="row g-2">
+            <div class="col-6">
+              <img src="SRD_VVIP/facade_SRDVVIP.jpg" alt="SRD VVIP Façade"
+                   style="width:100%; height:200px; object-fit:cover; border-radius:12px;" />
+            </div>
+            <div class="col-6">
+              <img src="SRD_VVIP/facade_SRDVVIP3.jpg" alt="SRD VVIP Intérieur"
+                   style="width:100%; height:200px; object-fit:cover; border-radius:12px;" />
+            </div>
+            <div class="col-12">
+              <img src="SRD_VVIP/facade_SRDVVIP2.jpg" alt="SRD VVIP"
+                   style="width:100%; height:180px; object-fit:cover; border-radius:12px;" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU ========== -->
+  <section class="resto-menu" id="menu">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Notre Menu</h2>
+        <div class="section-divider"></div>
+        <p class="text-muted fs-5">Des saveurs authentiques à des prix accessibles</p>
+      </div>
+      <div class="row g-4">
+
+        <!-- Lait Dakere -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="card menu-card h-100">
+            <div style="height:200px;background:linear-gradient(135deg,#ffecd2,#fcb69f);display:flex;align-items:center;justify-content:center;">
+              <i class="fas fa-glass-whiskey fa-5x" style="color:#D4AF37;opacity:0.6;"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Lait Dakere</h5>
+              <p class="text-muted small mb-2">Boisson lactée traditionnelle savoureuse, fraîche et nutritive.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <span class="menu-price">1 000 FCFA</span>
+                <button class="btn-add"><i class="fas fa-plus me-1"></i>Ajouter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Riz Sénégalais -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="card menu-card h-100">
+            <img src="SRD_VVIP/riz_sénégalais.jpg" alt="Riz Sénégalais" />
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Riz Sénégalais</h5>
+              <p class="text-muted small mb-2">Riz parfumé aux épices africaines, cuit avec légumes et viande.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <span class="menu-price">1 000 FCFA</span>
+                <button class="btn-add"><i class="fas fa-plus me-1"></i>Ajouter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Boissons -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="card menu-card h-100">
+            <div style="height:200px;background:linear-gradient(135deg,#a8edea,#fed6e3);display:flex;align-items:center;justify-content:center;">
+              <i class="fas fa-cocktail fa-5x" style="color:#FF6B35;opacity:0.7;"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Boissons (Carte)</h5>
+              <p class="text-muted small mb-2">Large choix de boissons fraîches, jus naturels et sodas variés.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <span class="menu-price">À partir de 500 FCFA</span>
+                <button class="btn-add"><i class="fas fa-plus me-1"></i>Ajouter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Couscous -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="card menu-card h-100">
+            <img src="SRD_VVIP/couscous.jpg" alt="Couscous" />
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Couscous</h5>
+              <p class="text-muted small mb-2">Couscous traditionnel camerounais préparé à la façon artisanale.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <span class="menu-price">1 500 FCFA</span>
+                <button class="btn-add"><i class="fas fa-plus me-1"></i>Ajouter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Eru -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="80">
+          <div class="card menu-card h-100">
+            <img src="SRD_VVIP/eru.jpg" alt="Eru" />
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Eru</h5>
+              <p class="text-muted small mb-2">Plat traditionnel camerounais à base de feuilles d'eru, water fufu et viande.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <span class="menu-price">1 500 FCFA</span>
+                <button class="btn-add"><i class="fas fa-plus me-1"></i>Ajouter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pommes plantain + Viande -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="160">
+          <div class="card menu-card h-100">
+            <img src="SRD_VVIP/pommes_plantain_viande.jpg" alt="Pommes plantain et viande" />
+            <div class="card-body">
+              <h5 class="fw-bold mb-1">Pommes plantain + Viande</h5>
+              <p class="text-muted small mb-2">Plantains grillés accompagnés de viande tendre et épicée.</p>
+              <div class="d-flex justify-content-between align-items-center mt-auto">
+                <span class="menu-price">1 000 FCFA</span>
+                <button class="btn-add"><i class="fas fa-plus me-1"></i>Ajouter</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="resto-cta" data-aos="fade-up">
+    <div class="container">
+      <h2 class="fw-bold fs-1 mb-3">Envie de savourer ?</h2>
+      <p class="fs-5 mb-4" style="color:rgba(255,255,255,0.8);">
+        Commandez dès maintenant et nous préparons votre repas avec amour !
+      </p>
+      <a href="https://wa.me/237688203095" class="whatsapp-badge d-inline-flex align-items-center gap-2 fs-5 px-4 py-3"
+         target="_blank">
+        <i class="fab fa-whatsapp fa-lg"></i>Commander via WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT RESTAURANT ========== -->
+  <section class="resto-contact">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Nous Trouver</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+          <div class="info-box text-center">
+            <i class="fas fa-map-marker-alt fa-2x mb-3" style="color:#FF6B35;"></i>
+            <h5 class="fw-bold">Adresse</h5>
+            <p class="text-muted mb-0">Face Policlinique de la Gare<br/>Douala, Cameroun</p>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="info-box text-center">
+            <i class="fab fa-whatsapp fa-2x mb-3" style="color:#25D366;"></i>
+            <h5 class="fw-bold">WhatsApp</h5>
+            <a href="https://wa.me/237688203095" class="text-decoration-none" style="color:#25D366;">
+              +237 688 20 30 95
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="info-box text-center">
+            <i class="fas fa-clock fa-2x mb-3" style="color:#FF6B35;"></i>
+            <h5 class="fw-bold">Horaires</h5>
+            <p class="text-muted mb-0">Lun – Dim<br/>07h00 – 22h00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5><i class="fas fa-paw me-2"></i>À propos de LionTech</h5>
+          <p style="color:rgba(255,255,255,0.65); line-height:1.8;">
+            Agence digitale basée au Cameroun, spécialisée dans la création de sites vitrines professionnels.
+          </p>
+          <a href="https://liontech.iceiy.com" target="_blank" style="color:#D4AF37;">
+            <i class="fas fa-globe me-1"></i>liontech.iceiy.com
+          </a>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fas fa-link me-2"></i>Liens rapides</h5>
+          <a href="index.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Accueil</a>
+          <a href="hotel.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Zingana Hôtel</a>
+          <a href="restaurant.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>SRD VVIP Restaurant</a>
+          <a href="salondebeaute.html"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Salon de Beauté</a>
+          <a href="contact.php"><i class="fas fa-chevron-right me-2" style="color:#D4AF37;"></i>Contact</a>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="fas fa-address-book me-2"></i>Contact & Réseaux</h5>
+          <div class="social-icons">
+            <a href="https://wa.me/237688203095" target="_blank">
+              <i class="fab fa-whatsapp me-2" style="color:#25D366;"></i>WhatsApp +237 688 20 30 95
+            </a>
+            <a href="https://facebook.com/LionTech" target="_blank">
+              <i class="fab fa-facebook me-2" style="color:#1877f2;"></i>Facebook LionTech
+            </a>
+            <a href="https://tiktok.com/@liontech62" target="_blank">
+              <i class="fab fa-tiktok me-2" style="color:#ee1d52;"></i>TikTok @liontech62
+            </a>
+            <a href="https://instagram.com/lion_tech02" target="_blank">
+              <i class="fab fa-instagram me-2" style="color:#e1306c;"></i>Instagram lion_tech02
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 <strong style="color:#D4AF37;">LionTech</strong> — Tous droits réservés | Développé avec ❤️ au Cameroun</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" title="Retour en haut">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, once: true, offset: 80 });
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) nav.classList.add('scrolled');
+    });
+    const scrollBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+      scrollBtn.style.display = window.scrollY > 400 ? 'flex' : 'none';
+    });
+    scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  </script>
+</body>
+</html>
