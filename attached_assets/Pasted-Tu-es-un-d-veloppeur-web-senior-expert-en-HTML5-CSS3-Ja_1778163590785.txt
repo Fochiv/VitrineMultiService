@@ -1,0 +1,149 @@
+Tu es un développeur web senior expert en HTML5, CSS3, JavaScript ES6, PHP 8 et Bootstrap 5. Ta mission est de créer un PROTOTYPE COMPLET, FONCTIONNEL et PROFESSIONNEL d'un site vitrine multiservice pour l'agence digitale "LionTech" basée au Cameroun. Ce site sert de démo commerciale : les agents LionTech le présentent à des clients pour illustrer leurs compétences mais dans plusieurs secteurs mais on va se baser tout d’abord sur 3 secteurs (hôtellerie, restauration, beauté).  J’ai ajoute les images du restaurant et de l’hotel dans leurs dossiers. Pour le salon de beaute tu peux improviser les images et les inserer dans le dossier correspondant.
+CONTRAINTES ABSOLUES : 
+- Aucune base de données (tout est statique) 
+- Responsive : mobile / tablette / desktop - Images 
+- Code propre, bien commenté, production-ready
+ - Animations légères (scroll, hover, fade)
+ - Design premium et moderne
+
+STRUCTURE DES FICHIERS À GÉNÉRER :
+Tu peux ecrire du html ou du php si besoin est donc par exemple index.php ou index.html
+liontech/
+PAGE D'ACCUEIL — index.html
+
+NAVBAR FIXE :
+- Logo " LionTech" 
+- Liens : Accueil | Hôtel | Restaurant | Beauté | Contact
+- Navbar transparente qui devient sombre au scroll (JS)
+- Hamburger menu sur mobile (Bootstrap collapse)
+
+HERO SECTION :
+- Titre : "Transformez votre business avec LionTech"
+- Sous-titre : "Solutions digitales pour tous vos services "
+- 2 boutons CTA : 
+    [Voir nos services] → ancre #services  
+    [Nous contacter] → contact.php
+
+SECTION SERVICES (#services) :
+- Titre section : "Nos Domaines d'Expertise"
+- 3 cartes Bootstrap avec icônes FontAwesome :
+    🏨 Zingana Hôtel → hotel.html
+    🍽️ SRD VVIP Restaurant → restaurant.html
+    💆 Salon de Beauté → salondebeaute.html
+- Chaque carte : image miniature, nom, courte description, bouton "Découvrir"
+- Animation AOS : fade-up au scroll, délai décalé (0ms / 150ms / 300ms)
+
+FOOTER GLOBAL (réutilisé sur toutes les pages) :
+- Colonnes : À propos LionTech | Liens rapides | Contact
+- Réseaux sociaux : WhatsApp +237 688203095 | Facebook LionTech | 
+  TikTok @liontech62 | Instagram lion_tech02
+- Site Offiiciel : https://liontech.iceiy.com
+- Copyright © 2025 LionTech — Tous droits réservés
+
+PAGE HÔTEL — hotel.html + hotel.css
+
+HERO BANNIÈRE :
+- Titre : "Zingana Hôtel "
+- ★★★★ ★
+- Sous-titre : "L'élégance africaine au cœur de Bafoussam"
+- Bouton : [Réserver maintenant] (couleur or, lien simulé #)
+
+PRÉSENTATION (section texte) :
+- Titre : "Bienvenue au Zingana Hôtel"
+- Texte marketing 3-4 paragraphes (hôtel premium, confort, hospitalité camerounaise)
+- Image décorative en colonne droite 
+
+GALERIE PHOTOS (4–6 images) :
+- Grid Bootstrap 
+- Effet hover : zoom léger 
+
+SERVICES ICÔNES (Bootstrap icons ou FontAwesome) :
+  📶 Wi-Fi gratuit | 🏊 Piscine | 🕐 Service 24h/24
+  🍽️ Restaurant | 🅿️ Parking | ❄️ Climatisation
+- Cartes petites avec icônes, disposées en grille col-md-2
+
+GALERIE CHAMBRES (cards Bootstrap) :
+- Chambre Standard : image + prix fictif "25 000 FCFA/nuit"
+- Chambre Deluxe : image + "45 000 FCFA/nuit"  
+- Suite Présidentielle : image + "85 000 FCFA/nuit"
+- Bouton "Réserver" sur chaque carte (lien # simulé)
+
+INFORMATIONS PRATIQUES :
+- Localisation : Bafoussam, Cameroun (avec emoji 📍)
+- Contact : WhatsApp +237 688203095 (badge vert cliquable)
+
+PAGE RESTAURANT — restaurant.html + restaurant.css
+
+HERO BANNIÈRE :
+- Titre : "SRD VVIP"
+- Sous-titre : "Super Restaurant Dakere VVIP — Saveurs authentiques du Cameroun"
+- Localisation : 📍 Douala, face à la Policlinique de la Gare
+- Bouton : [Commander maintenant] (fond orange, texte blanc)
+
+PRÉSENTATION :
+- Texte marketing sur la cuisine camerounaise et africaine
+- Badge "VVIP Experience" stylisé 
+Étoiles ★★★★★
+
+MENU PRINCIPAL (cards Bootstrap col-md-4) :
+Chaque carte = image plat + nom + description courte + prix + bouton "Ajouter"
+
+  1. Lait Dakere         → 1 000 FCFA   
+  2. Riz Sénégalais      → 1 000 FCFA  
+  3. Boissons (Carte)    → A partir de 500 FCFA
+  4. Couscous            → 1 500 FCFA  
+  5. Eru                 → 1 500 FCFA  
+  6. Pommes plantain + Viande → 1 000 FCFA
+ 
+SECTION CTA :
+- Titre : "Envie de savourer ?"
+- Bouton WhatsApp : [Commander via WhatsApp] → href="https://wa.me/237688203095"
+
+CONTACT RESTAURANT :
+- Adresse : Face Policlinique de la Gare, Douala, Cameroun
+- WhatsApp : +237 688203095
+- Horaires fictifs : Lun-Dim 07h00 – 22h00
+
+  PAGE SALON DE BEAUTÉ — salondebeaute.html + salondebeaute.css
+HERO BANNIÈRE :
+- Image salon de beauté moderne
+- Titre : "Révélez votre beauté"
+- Sous-titre : "Votre salon premium — Expertise & élégance"
+- Bouton : [Prendre rendez-vous] → href="https://wa.me/237688203095"
+
+SERVICES (cards avec icônes, col-md-4) :
+  ✂️ Coiffure          → "Coupes, tresses, lissage, coloration"     → 3 000 FCFA
+  💄 Maquillage        → "Maquillage de jour, soirée, mariée"        → 5 000 FCFA
+  🧴 Soins du visage   → "Hydratation, gommage, masques revitalisants"→ 4 000 FCFA
+  💅 Pédicure          → "Soin pieds complet, vernis gel"             → 3 500 FCFA
+  💅 Manucure          → "Ongles naturels, nail art, gel UV"          → 2 500 FCFA
+
+Chaque carte : icône FontAwesome large, hover élévation légère
+
+- Images de coiffures ou soins
+- Titre section : "Nos Transformations"
+
+TÉMOIGNAGES (optionnel, 9 cartes) :
+- Étoiles ★★★★★, nom fictif, courte citation
+
+SECTION RDV :
+- Titre : "Prenez rendez-vous dès aujourd'hui"
+- Bouton : [WhatsApp +237 688203095]
+
+CONTACT BEAUTÉ :
+- Téléphone LionTech, réseaux sociaux identiques à l'accueil
+  PAGE CONTACT — contact.php
+
+FORMULAIRE PHP (sans BDD, envoi par mail ou simple confirmation) :
+- Champs : Nom complet | Email | Téléphone | Sujet (select) | Message
+- Validation PHP côté serveur (htmlspecialchars, filter_var email)
+- Message de confirmation Bootstrap alert-success après envoi
+- Pas de base de données — juste mail() ou affichage de confirmation
+
+INFORMATIONS DE CONTACT:
+  📱 WhatsApp   : +237 688203095 (lien cliquable)
+  📘 Facebook   : LionTech
+  🎵 TikTok     : @liontech62
+  📸 Instagram  : lion_tech02
+  🌐 Site web   : https://liontech.iceiy.com
+
